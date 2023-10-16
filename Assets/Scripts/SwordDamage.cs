@@ -17,7 +17,7 @@ public class SwordDamage : MonoBehaviourPunCallbacks
         if (ObjIsmi.Equals("Sword"))
         {
             playerHealthPoints -= 20;
-            playerHealthPoints.text = canSayaci + "";
+            playerHealthPoints.text = canSayaci + " HP";
         }
     }
 
